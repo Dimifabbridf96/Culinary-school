@@ -142,3 +142,64 @@ h1{
  .social-links a{
      padding: 0 40px 10px 40px ;
  }
+ #course{
+     font-size: 300%;
+     text-align: center;
+      padding: 50px 30px 30px 50px ; 
+      letter-spacing: 2px;
+      text-decoration: none;
+      line-height: 250px;
+      color: #000;
+ }
+ .course-image{
+     background: url(../image/cooking-course.jpg) no-repeat center center;
+ background-size: cover;
+ width: 100%;
+ }
+.course {
+     padding: 100px;
+ }
+ .left-coloumn{
+     float: left;
+     font-size: large;
+    
+     width: 48%;
+     margin: 10px;
+     padding: 20px 20px 54px 20px;
+     border: 1px solid #000;
+ }
+ .yellow{
+    background-color: rgb(247, 188, 87);
+ }
+ .left-coloumn p{
+     font-size: 1.5rem;
+ }
+ .left-coloumn h2{
+     text-align: center;
+     font-size: 250%;
+ }
+ .left-coloumn h3{
+     color: #fff;
+ }
+ .right-coloumn{
+    float: right;
+    font-size: large;
+    width: 48%;
+    margin: 10px;
+    padding: 20px 18px 20px;
+    border: 1px solid #000;
+ }
+ .light{
+    background-color: #ffffcfde;
+
+ }
+ .right-coloumn p{
+    font-size: 1.5rem;
+}
+.right-coloumn h2{
+    text-align: center;
+    font-size: 250%;
+}
+.sand{
+    background-color:rgb(198, 166, 100)
+}
