@@ -240,3 +240,35 @@ h1{
 #bakery{
     padding-bottom: 20px;
 }
+.join-us-image{
+    background: url(../image/join-us.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+.form-section{
+    height: 600px;
+    width: 75%;
+    background-color: chocolate;
+    margin: 40px 12.5% 40px 12.5%;
+    position: relative;
+
+}
+.signup-form{
+position: absolute;
+height: 400px;
+width: inherit;
+color: #f2ae75;
+text-align: center;
+padding: 120px 15% 0 15%;
+}
+.signup-form h2{
+    font-size: 250%;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+.padding-bottom{
+    padding-bottom: 10px;
+}
+.form-section div{
+    padding-bottom: 15px;
+}
