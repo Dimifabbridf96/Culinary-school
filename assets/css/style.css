@@ -141,6 +141,10 @@ h1{
  }
  .social-links a{
      padding: 0 40px 10px 40px ;
+     color: #000;
+ }
+ .social-links a:hover{
+     color: blue;
  }
  #course{
      font-size: 300%;
@@ -163,7 +167,7 @@ h1{
      float: left;
      font-size: large;
     
-     width: 48%;
+     width: 47%;
      margin: 10px;
      padding: 20px 20px 58px 20px;
      border: 1px solid #000;
@@ -215,4 +219,24 @@ h1{
 }
 .salmon{
     background-color: rgb(255, 140, 105);
+}
+.pastry-course-image{
+
+    background: url(../image/panettone.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+.push-down{
+    padding-top: 850px;
+}
+#cooking{
+    padding-bottom: 40px;
+}
+.bread-image{
+ background: url(../image/bread.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+#bakery{
+    padding-bottom: 20px;
 }
