@@ -31,7 +31,7 @@ h1{
 }
 #menu{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
    
 }
 
@@ -132,6 +132,7 @@ h1{
  .social-links{
 
      text-align: center;
+
  }
  .social-links i{
      font-size: 2rem;
@@ -174,6 +175,7 @@ h1{
  }
  .yellow{
     background-color: rgb(247, 188, 87);
+    padding-bottom: 32px;
  }
  .left-coloumn p{
      font-size: 1.5rem;
@@ -211,6 +213,9 @@ h1{
 .push-right{
     padding-left: 20px;
 }
+.up{
+    padding-bottom: 50px;
+}
 .cocoa{
     background-color: #D2691E;
 }
@@ -227,7 +232,7 @@ h1{
     width: 100%;
 }
 .push-down{
-    padding-top: 850px;
+    padding-top: 880px;
 }
 #cooking{
     padding-bottom: 40px;
@@ -258,7 +263,7 @@ h1{
 position: absolute;
 height: 400px;
 width: inherit;
-color: #f2ae75;
+color: #000000;
 text-align: center;
 padding: 60px 15% 0 15%;
 }
@@ -275,7 +280,7 @@ padding: 60px 15% 0 15%;
 }
 .move-left{
     float: left;
-    padding: 20px 0 0 25%;
+   
 }
 .join-button{
     background-color: #805A46;
@@ -287,22 +292,53 @@ padding: 60px 15% 0 15%;
 }
 .move-right{
         float: right;
-        padding: 20px 25% 0 0;
 }
 
-@media screen and (max-width: 2100px) {
+@media screen and (max-width: 1440px) {
     .pastry{
         margin-top: 100px;
     }
-    
+    .left-coloumn, .right-coloumn{
+        width: 43%;
+    }
+    .push-down{
+        padding-top: 72%;
+    }
+    .left-coloumn{
+        padding-bottom: 83px;
+    }
+    .cocoa{
+        padding-bottom: 36px;
+    }
+    .sand{
+        padding-bottom: 121px;
+    }
+  .join-button{
+      margin: 30% 0 0 50%;
+  }
 }
 
-@media screen and (max-width: 1340px){
+@media screen and (max-width: 1024px){
     .pastry{
         margin-top: 300px;
     }
+    .push-down{
+        padding-top: 122%;
+    }
+    .sand{
+        padding-bottom: 213px;
+    }
+    .form-section{
+        height: 800px;
+    }
+    .move-right{
+        float: left;
+    }
+    .join-button{
+        margin: 23% 0 0 80%;
+    }
 }
-@media screen and (max-width: 920px){
+@media screen and (max-width: 768px){
     .pastry{
         margin-top: 400px;
     }
@@ -313,7 +349,24 @@ padding: 60px 15% 0 15%;
     .center{
         padding-left: 130px;
     }
- 
+ .left-coloumn, .right-coloumn{
+     width: 40%;
+ }
+ .left-coloumn{
+     padding-bottom: 146px;
+ }
+ .yellow{
+     padding-bottom: 205px;
+ }
+ #menu li{
+    padding: 4px 10px 5px 10px;
+ }
+ .sand{
+    padding-bottom: 273px;
+}
+.join-button{
+    margin: 33% 0 0 85%;
+}
 }
 
 @media screen and (max-width: 425px){
@@ -322,18 +375,46 @@ padding: 60px 15% 0 15%;
     }
     .center{
        overflow: hidden; ;
-       padding: 20px 10px 0 30px;
+       padding: 20px 10px 0 10px;
        background-color: rgb(223, 000, 036); 
        border: 2px solid #000;
     }
+ 
     .pastry{
-        margin-top: 500px
+        margin-top: 30px
     }
     .right{
         margin-left: 10px; 
     background-color: #fff;
 border: none;}
+.left-coloumn, .right-coloumn{
+    width: 86%;
+    margin: 20px 3.5px 0 3.5px;
 }
-@media screen and() {
+#menu li{
+    padding: 10px 10px 5px 10px;
+    display: block;
+ }
+ .form-section{
+     height: 1305px;
+ }
+ .join-button{
+     margin: 33% 0 0 29%;
+ }
+ .logo-image{
+     height: 453px;
+ }
+}
+@media screen and (max-width: 375px) {
+    .form-section{
+        height: 1440px;
+        width: 81%;
+    }
+    .signup-form h2{
+        font-size: 42px;
+    }
+    .logo-image{
+        height: 500px;
+    }
     
 }
