@@ -246,11 +246,12 @@ h1{
     width: 100%;
 }
 .form-section{
-    height: 600px;
+    height: 700px;
     width: 75%;
     background-color: chocolate;
     margin: 40px 12.5% 40px 12.5%;
     position: relative;
+    font-size: 200%;
 
 }
 .signup-form{
@@ -259,10 +260,10 @@ height: 400px;
 width: inherit;
 color: #f2ae75;
 text-align: center;
-padding: 120px 15% 0 15%;
+padding: 60px 15% 0 15%;
 }
 .signup-form h2{
-    font-size: 250%;
+
     letter-spacing: 3px;
     padding-bottom: 40px;
 }
@@ -271,4 +272,68 @@ padding: 120px 15% 0 15%;
 }
 .form-section div{
     padding-bottom: 15px;
+}
+.move-left{
+    float: left;
+    padding: 20px 0 0 25%;
+}
+.join-button{
+    background-color: #805A46;
+    border: 1px solid #000;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    margin: 12.5% 0 0 50%;
+}
+.move-right{
+        float: right;
+        padding: 20px 25% 0 0;
+}
+
+@media screen and (max-width: 2100px) {
+    .pastry{
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1340px){
+    .pastry{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 920px){
+    .pastry{
+        margin-top: 400px;
+    }
+    .left{
+        letter-spacing: 1.5px;
+        padding-bottom: 45px;
+    }
+    .center{
+        padding-left: 130px;
+    }
+ 
+}
+
+@media screen and (max-width: 425px){
+    .left, .right, .center{
+        width: 100%;
+    }
+    .center{
+       overflow: hidden; ;
+       padding: 20px 10px 0 30px;
+       background-color: rgb(223, 000, 036); 
+       border: 2px solid #000;
+    }
+    .pastry{
+        margin-top: 500px
+    }
+    .right{
+        margin-left: 10px; 
+    background-color: #fff;
+border: none;}
+}
+@media screen and() {
+    
 }
