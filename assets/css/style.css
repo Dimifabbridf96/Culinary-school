@@ -290,20 +290,27 @@ padding: 60px 15% 0 15%;
     float: left;
    
 }
+.text-input{
+    border: 1px solid #000;
+}
 .join-button{
     background-color: #805A46;
     border: 1px solid #000;
     color: #fff;
     display: block;
     padding: 20px;
-    margin: 12.5% 0 0 50%;
+    margin: 5% 0 0 50%;
 }
 .move-right{
         float: right;
 }
-.width{
-    height: 180px;
+.fill{
+    margin-bottom: 12.5%;
 }
+@media screen and (max-width: 1800px){
+      .fill{
+          margin-bottom: 20.5%;
+      }
 @media screen and (max-width: 1440px) {
     
     .left-coloumn, .right-coloumn{
@@ -319,16 +326,13 @@ padding: 60px 15% 0 15%;
     .sand{
         padding-bottom: 121px;
     }
-  .join-button{
-      margin: 30% 0 0 50%;
+  
   }
 
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     
-    .push-down{
-        padding-top: 122%;
-    }
+    
     .sand{
         padding-bottom: 213px;
     }
@@ -342,7 +346,7 @@ padding: 60px 15% 0 15%;
         margin: 23% 0 0 80%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 755px){
     
     .left{
         letter-spacing: 1.5px;
@@ -367,7 +371,11 @@ padding: 60px 15% 0 15%;
     padding-bottom: 273px;
 }
 .join-button{
-    margin: 33% 0 0 85%;
+    margin: 33% 0 0 40%;
+}
+.form-section{
+    height: 900px;
+    font-size: 170%;
 }
 
 @media screen and (max-width: 684px){
@@ -387,7 +395,16 @@ padding: 60px 15% 0 15%;
       padding: 20px 0 20px 20px;
   }  
 }
-
+@media screen and (max-width: 609px) {
+   .text-input{
+       width: 100%;
+   }
+    
+}
+@media screen and (max-width: 517px){
+ .form-section{
+     height: 1305px;
+}
 @media screen and (max-width: 425px){
     .left, .right, .center{
         width: 100%;
@@ -412,8 +429,7 @@ padding: 60px 15% 0 15%;
     padding: 10px 10px 5px 10px;
     display: block;
  }
- .form-section{
-     height: 1305px;
+
  }
  .join-button{
      margin: 33% 0 0 29%;
