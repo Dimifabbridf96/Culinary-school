@@ -135,6 +135,7 @@ h1{
  .social-links{
 
      text-align: center;
+     padding-top: 10px;
 
  }
  .social-links i{
@@ -171,7 +172,7 @@ h1{
      float: left;
      font-size: large;
     
-     width: 47%;
+     width: 45%;
      margin: 10px;
      padding: 20px 20px 58px 20px;
      border: 1px solid #000;
@@ -193,7 +194,7 @@ h1{
  .right-coloumn{
     float: right;
     font-size: large;
-    width: 48%;
+    width: 45%;
     margin: 11px;
     padding: 20px 18px 20px;
     border: 1px solid #000;
@@ -229,15 +230,17 @@ h1{
 .salmon{
     background-color: rgb(255, 140, 105);
 }
+#pastry{
+    padding-bottom: 20px;
+}
 .pastry-course-image{
 
     background: url(../image/panettone.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
-.push-down{
-    padding-top: 880px;
-}
+
+
 #cooking{
     padding-bottom: 40px;
 }
@@ -249,6 +252,7 @@ h1{
 #bakery{
     padding-bottom: 20px;
 }
+
 .join-us-image{
     background: url(../image/join-us.jpg) no-repeat center center;
     background-size: cover;
@@ -297,17 +301,15 @@ padding: 60px 15% 0 15%;
 .move-right{
         float: right;
 }
-
+.width{
+    height: 180px;
+}
 @media screen and (max-width: 1440px) {
-    .pastry{
-        margin-top: 100px;
-    }
+    
     .left-coloumn, .right-coloumn{
         width: 43%;
     }
-    .push-down{
-        padding-top: 72%;
-    }
+    
     .left-coloumn{
         padding-bottom: 83px;
     }
@@ -320,12 +322,10 @@ padding: 60px 15% 0 15%;
   .join-button{
       margin: 30% 0 0 50%;
   }
-}
 
+}
 @media screen and (max-width: 1024px){
-    .pastry{
-        margin-top: 300px;
-    }
+    
     .push-down{
         padding-top: 122%;
     }
@@ -343,9 +343,7 @@ padding: 60px 15% 0 15%;
     }
 }
 @media screen and (max-width: 768px){
-    .pastry{
-        margin-top: 400px;
-    }
+    
     .left{
         letter-spacing: 1.5px;
         padding-bottom: 45px;
@@ -371,11 +369,12 @@ padding: 60px 15% 0 15%;
 .join-button{
     margin: 33% 0 0 85%;
 }
-}
+
 @media screen and (max-width: 684px){
    .container{
        display: flex;
        flex-direction: column;
+       justify-content: center;
    } 
    .left, .right, .center{
     width: 90%;
@@ -383,7 +382,10 @@ padding: 60px 15% 0 15%;
 .center{
     padding-left: 30px ;
 }
-    
+  .left-coloumn,.right-coloumn{
+      width: 95%;
+      padding: 20px 0 20px 20px;
+  }  
 }
 
 @media screen and (max-width: 425px){
@@ -445,4 +447,5 @@ padding: 60px 15% 0 15%;
         height: 500px;
     }
     
+}
 }
